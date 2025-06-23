@@ -68,6 +68,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			fontFamily: {
+				body: ["var(--font-body)", "sans-serif"],
+				heading: ["var(--font-heading)", "sans-serif"],
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
